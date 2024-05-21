@@ -1,0 +1,18 @@
+import java.util.Scanner;
+// This code is dedicated to show people how to find the Hypotenuse of a Right Triangle Using Pythagorean Theorem
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Find the Hypotenuse of a Specific Right Triangle");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a Value for Side X: ");
+        double X = scanner.nextDouble();
+        System.out.println("Enter a Value for Side Y: ");
+        double Y = scanner.nextDouble();
+        double Z = Math.sqrt(Math.pow(X,2) + Math.pow(Y,2));
+        System.out.println(Z);
+    }
+
+}
